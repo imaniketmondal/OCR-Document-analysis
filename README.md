@@ -22,22 +22,11 @@ pip install -e .
 ```
 
 ## Quick Start
-Train a small model using the sample data:
-
-```bash
-python -m doc_analysis.cli train --data data/sample_train.csv --model models/model.joblib
-```
-
-Analyze a document:
-
-```bash
-python -m doc_analysis.cli analyze --file path/to/document.pdf --model models/model.joblib
-```
 
 OCR only:
 
 ```bash
-python -m doc_analysis.cli ocr --file path/to/image.png
+python -m doc_analysis.cli analyze --model models\model.joblib
 ```
 
 ## Docker
