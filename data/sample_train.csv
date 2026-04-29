@@ -1,0 +1,7 @@
+text,label
+"INVOICE\nTotal Due: $125.00\nInvoice #INV-1001",invoice
+"RECEIPT\nThank you for your purchase\nTotal $9.99",receipt
+"BANK STATEMENT\nAccount summary\nEnding balance",bank_statement
+"IDENTIFICATION CARD\nName: John Doe\nDOB",id_card
+"TAX FORM\nIncome and deductions\nTax year 2024",tax_form
+"Random text with no clear category",unknown

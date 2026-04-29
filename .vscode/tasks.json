@@ -1,0 +1,269 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Train sample model",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"train",
+				"--data",
+				"data\\sample_train.csv",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Train sample model",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"train",
+				"--data",
+				"data\\sample_train.csv",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Train sample model",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"train",
+				"--data",
+				"data\\sample_train.csv",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Install PaddleOCR",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"paddleocr",
+				"paddlepaddle"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Downgrade PaddleOCR",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"--upgrade",
+				"--force-reinstall",
+				"paddleocr==2.7.0.3",
+				"paddlepaddle==2.6.1"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Install requirements",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"-r",
+				"requirements.txt"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install requirements",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"-r",
+				"requirements.txt"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install requirements",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"-r",
+				"requirements.txt"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Train sample model",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"train",
+				"--data",
+				"data\\sample_train.csv",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Analyze sample image",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"doc_analysis.cli",
+				"analyze",
+				"--file",
+				"D:\\_courses\\finnalyear\\ippr\\sample.jpg",
+				"--model",
+				"models\\model.joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}

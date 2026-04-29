@@ -1,0 +1,8 @@
+[
+  "invoice",
+  "receipt",
+  "bank_statement",
+  "id_card",
+  "tax_form",
+  "unknown"
+]
